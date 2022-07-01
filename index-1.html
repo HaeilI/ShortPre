@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>드라마&영화 쇼츠</title>
+		<link rel="stylesheet" href="css/drama.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/drama.js"></script>
+	</head>
+	<body>
+		<div id="layout">
+			<header>
+				<iframe src="top.html" title="상단 로고와 네비게이션" id="iftop"></iframe>
+				<div>
+					<button type="button" id="dramabut">드라마</button>
+					<button type="button" id="moviebut">영화</button>
+					<button type="button" id="category">카테고리&#9662;</button>
+				</div>
+			</header>
+			<main >
+				<section id="navi">
+					<h2><a href="index-1.html">홈</a></h2>
+					<nav>
+						<ul class="pointer">
+							<li>mbc</li>
+							<li>kbs</li>
+							<li>sbs</li>
+							<li>jtbc</li>
+							<li>tvn</li>
+							<li>멜로</li>
+							<li>스릴러</li>
+							<li>공포</li>
+							<li>범죄</li>
+							<li>액션</li>
+							<li>가족</li>
+							<li>판타지</li>
+						</ul>
+					</nav>
+					<span class="material-symbols-outlined pointer">cancel</span>
+				</section>
+				<section id="drama">
+				<h2>드라마</h2>
+					<section id="top">
+						<div>
+							<img src="images/s1.jpg" alt="으라차차 내인생">
+								<div id="about">
+									<h3>드라마 · 한국 작품</h3>
+									<div>
+										<ruby id="gu">구독<rt><b class="material-symbols-outlined pointer">add</b><b class="material-symbols-outlined active">favorite</b></rt></ruby>
+										<a href="info.html" id="topbutton"><ruby>정보<rt>ⓘ</rt></ruby></a>
+									</div>
+								</div>
+						</div>
+					</section>
+					<section id="days">
+					<h2>요일</h2>
+						<button type="button" class="sun">일</button>
+						<button type="button" class="mon active">월</button>
+						<button type="button" class="tue active">화</button>
+						<button type="button" class="wed active">수</button>
+						<button type="button" class="thu active">목</button>
+						<button type="button" class="fri active">금</button>
+						<button type="button" class="sat active">토</button>
+					</section>
+					<section id="dramatable">
+					<h2>요일별 드라마</h2>
+						<div class="sun">
+							<div>
+								<div>
+									<p>현재는 아름다워<br>KBS2 오후 08:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sun1.jpg" alt="현재는 아름다워">
+							</div>
+							<div>
+								<div>
+									<p>환혼<br>tvN 오후 09:10</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sun2.jpg" alt="환혼">
+							</div>
+							<div>
+								<div>
+									<p>클리닝 업<br>JTBC 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sun3.jpg" alt="클리닝 업">
+							</div>
+						</div>
+						<div class="mon active">
+							<div>
+								<div>
+									<p>으라차차 내인생<br>KBS1 오후 08:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon1.jpg" alt="으라차차 내인생">
+							</div>
+							<div>
+								<div>
+									<p>황금가면<br>KBS2 오후 07:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon2.jpg" alt="황금가면">
+							</div>
+							<div>
+								<div>
+									<p>비밀의 집<br>MBC 오후 07:05</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon3.jpg" alt="비밀의 집">
+							</div>
+							<div>
+								<div>
+									<p>미남당<br>KBS2 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon4.jpg" alt="미남당">
+							</div>
+							<div>
+								<div>
+									<p>링크:먹고 사랑하라, 죽이게<br>tvN 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon5.jpg" alt="링크:먹고 사랑하라, 죽이게">
+							</div>
+						</div>
+						<div class="tue active">
+							<div>
+								<div>
+									<p>으라차차 내인생<br>KBS1 오후 08:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon1.jpg" alt="으라차차 내인생">
+							</div>
+							<div>
+								<div>
+									<p>황금가면<br>KBS2 오후 07:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon2.jpg" alt="황금가면">
+							</div>
+							<div>
+								<div>
+									<p>비밀의 집<br>MBC 오후 07:05</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon3.jpg" alt="비밀의 집">
+							</div>
+							<div>
+								<div>
+									<p>미남당<br>KBS2 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon4.jpg" alt="미남당">
+							</div>
+							<div>
+								<div>
+									<p>링크:먹고 사랑하라, 죽이게<br>tvN 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon5.jpg" alt="링크:먹고 사랑하라, 죽이게">
+							</div>
+						</div>
+						<div class="wed active">
+							<div>
+								<div>
+									<p>으라차차 내인생<br>KBS1 오후 08:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon1.jpg" alt="으라차차 내인생">
+							</div>
+							<div>
+								<div>
+									<p>황금가면<br>KBS2 오후 07:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon2.jpg" alt="황금가면">
+							</div>
+							<div>
+								<div>
+									<p>비밀의 집<br>MBC 오후 07:05</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon3.jpg" alt="비밀의 집">
+							</div>
+							<div>
+								<div>
+									<p>이브<br>tvN 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed4.jpg" alt="이브">
+							</div>
+							<div>
+								<div>
+									<p>인사이더<br>JTBC 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed5.jpg" alt="인사이더">
+							</div>
+							<div>
+								<div>
+									<p>징크스의 연인<br>KBS2 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed6.jpg" alt="징크스의 연인">
+							</div>
+							<div>
+								<div>
+									<p>이상한 변호사 우영우<br>ENA 오후 09:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed7.jpg" alt="이상한 변호사 우영우">
+							</div>
+						</div>
+						<div class="thu active">
+							<div>
+								<div>
+									<p>으라차차 내인생<br>KBS1 오후 08:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon1.jpg" alt="으라차차 내인생">
+							</div>
+							<div>
+								<div>
+									<p>황금가면<br>KBS2 오후 07:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon2.jpg" alt="황금가면">
+							</div>
+							<div>
+								<div>
+									<p>비밀의 집<br>MBC 오후 07:05</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon3.jpg" alt="비밀의 집">
+							</div>
+							<div>
+								<div>
+									<p>이브<br>tvN 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed4.jpg" alt="이브">
+							</div>
+							<div>
+								<div>
+									<p>인사이더<br>JTBC 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed5.jpg" alt="인사이더">
+							</div>
+							<div>
+								<div>
+									<p>징크스의 연인<br>KBS2 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed6.jpg" alt="징크스의 연인">
+							</div>
+							<div>
+								<div>
+									<p>이상한 변호사 우영우<br>ENA 오후 09:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/wed7.jpg" alt="이상한 변호사 우영우">
+							</div>
+						</div>
+						<div class="fri active">
+							<div>
+								<div>
+									<p>으라차차 내인생<br>KBS1 오후 08:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon1.jpg" alt="으라차차 내인생">
+							</div>
+							<div>
+								<div>
+									<p>황금가면<br>KBS2 오후 07:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon2.jpg" alt="황금가면">
+							</div>
+							<div>
+								<div>
+									<p>왜 오수재인가<br>SBS 오후 10:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/fri3.jpg" alt="왜 오수재인가">
+							</div>
+							<div>
+								<div>
+									<p>비밀의 집<br>MBC dhgn 07:05</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mon3.jpg" alt="비밀의 집">
+							</div>
+							<div>
+								<div>
+									<p>닥터로이어<br>MBC 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/fri5.jpg" alt="닥터로이어">
+							</div>
+							<div>
+								<div>
+									<p>O'PENing<br>tvN 오후 10:40</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/fri6.jpg" alt="O'PENing">
+							</div>
+						</div>
+						<div class="sat active">
+							<div>
+								<div>
+									<p>현재는 아름다워<br>KBS2 오후 08:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat1.jpg" alt="현재는 아름다워">
+							</div>
+							<div>
+								<div>
+									<p>왜 오수재인가<br>SBS 오후 10:00</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat2.jpg" alt="왜 오수재인가">
+							</div>
+							<div>
+								<div>
+									<p>환혼<br>tvN 오후 09:10</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat3.jpg" alt="환혼">
+							</div>
+							<div>
+								<div>
+									<p>닥터로이어<br>MBC 오후 09:50</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat4.jpg" alt="닥터로이어">
+							</div>
+							<div>
+								<div>
+									<p>마녀는 살아있다<br>TV조선 오후 09:10</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat5.jpg" alt="마녀는 살아있다">
+							</div>
+							<div>
+								<div>
+									<p>클리닝 업<br>JTBC 오후 10:30</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/sat6.jpg" alt="클리닝 업">
+							</div>
+						</div>
+					</section>
+				</section>
+				<section id="movie" class="active">
+				<h2>영화</h2>
+					<section id="top">
+						<div>
+							<img src="images/back.png" alt="타짜3">
+							<div id="about">
+								<h3>범죄 · 드라마 · 한국 작품 · 도박</h3>
+								<div>
+									<ruby id="gu">구독<rt><b class="material-symbols-outlined">add</b><b class="material-symbols-outlined active">favorite</b></rt></ruby>
+									<button type="button" id="topbutton"><ruby>정보<rt>ⓘ</rt></ruby></button>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="movietable">
+						<h2>영화</h2>
+							<div>
+								<div>
+									<p>탑건:매버릭<br>조셉 코신 스키</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mo1.jpg" alt="탑건:매버릭">
+							</div>
+							<div>
+								<div>
+									<p>헤어진 결심<br>박찬욱</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mo2.jpg" alt="헤어진 결심">
+							</div>
+							<div>
+								<div>
+									<p>마녀2<br>박훈정</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mo3.jpg" alt="마녀2">
+							</div>
+							<div>
+								<div>
+									<p>범죄도시2<br>이상용</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mo4.jpg" alt="범죄도시2">
+							</div>
+							<div>
+								<div>
+									<p>브로커<br>고레에다 히로카즈</p>
+									<button type="button">구독</button>
+								</div>
+								<img src="images/mo5.jpg" alt="브로커">
+							</div>
+					</section>
+				</section>
+				<div id="gb"></div>
+			</main>
+			<section id="upload">
+				<h2>업로드</h2>
+				<div id="upload2">
+						<p class="pointer"><img src="images/logo.png" alt="logo">Shorts 영상 만들기</p>
+						<p class="pointer"><span class="material-symbols-outlined">file_upload</span>동영상 업로드</p>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<a href="index-1.html" class="material-symbols-outlined">home</a>
+				</div>
+				<div>
+					<a href="short.html" class="material-symbols-outlined">live_tv</a>
+				</div>
+				<div>
+					<a href="#.html" class="material-symbols-outlined" id="upbut">add_circle</a>
+				</div>	
+				<div>	
+					<a href="sub.html" class="material-symbols-outlined">folder</a>
+				</div>	
+				<div>	
+					<a href="login.html" class="material-symbols-outlined">account_circle</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>드라마&영화 쇼츠</title>
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<div id="layout">
+			<header>
+				<div>
+					<a href="index-1.html"><img src="images/logo.png" alt="logo"></a>
+				</div>
+			</header>
+			<main>
+				<form id="login">
+				<h1>로그인</h1>
+					<div>
+						<!-- <label for="username">Username:</label> -->
+						<fieldset>
+						<legend>Username</legend>
+							<input type="text" id="username" name="username">
+						</fieldset>
+					</div>
+					<div>
+						<!-- <label for="pass">Password :</label> -->
+						<fieldset>
+						<legend>Password</legend>
+							<input type="password" id="pass" name="password"
+									 minlength="8" required>
+						</fieldset>
+					</div>
+					<div>
+						<input type="submit" value="로그인" class="pointer" id="sub">
+						<a href="signup.html" id="signup">회원가입</a>
+					</div>
+				</form>
+				<div id="gb"></div>
+			</main>
+			<section id="upload">
+				<h2>업로드</h2>
+				<div id="upload2">
+						<p class="pointer"><img src="images/logo.png" alt="logo">Shorts 영상 만들기</p>
+						<p class="pointer"><span class="material-symbols-outlined">file_upload</span>동영상 업로드</p>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<a href="index-1.html" class="material-symbols-outlined">home</a>
+				</div>
+				<div>
+					<a href="short.html" class="material-symbols-outlined">live_tv</a>
+				</div>
+				<div>
+					<a href="#.html" class="material-symbols-outlined" id="upbut">add_circle</a>
+				</div>	
+				<div>	
+					<a href="sub.html" class="material-symbols-outlined">folder</a>
+				</div>	
+				<div>	
+					<a href="login.html" class="material-symbols-outlined">account_circle</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
