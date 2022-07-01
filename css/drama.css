@@ -53,6 +53,11 @@ header div {display:flex;  justify-content:space-around;  font-weight:bold; marg
 #top img {width:100%; height:80vh;}
 #top a {text-decoration:none;}
 
+#top1  {justify-content:space-around; }
+#top1 h3 {color:white; text-align:center; margin-bottom:15px;}
+#top1 img {width:100%; height:80vh;}
+#top1 a {text-decoration:none;}
+
 #drama h2 {display:none;}
 #drama #about {position:absolute; width:100%; background:none; top:calc(70vh - 10px); padding:5px;}
 #drama #about div { display:flex; justify-content:space-between;  margin:0 100px;}
@@ -60,16 +65,22 @@ header div {display:flex;  justify-content:space-around;  font-weight:bold; marg
 #gu rt {background:none; color:white; border:none; border-radius:5px; font-size:1.5rem;}
 #gu .active {display:none;}
 
+#gu1 {color:white; font-size:1rem; transform:translateY(-5px);}
+#gu1 rt {background:none; color:white; border:none; border-radius:5px; font-size:1.5rem;}
+#gu1 .active {display:none;}
 
 #topbutton {background:none; color:white; align-self:center; border:none; }
 #topbutton ruby {font-size:1rem;}
 #topbutton rt {font-size:1.5rem; transform:translateY(-4px);}
 
+#topbutton1 {background:none; color:white; align-self:center; border:none; }
+#topbutton1 ruby {font-size:1rem;}
+#topbutton1 rt {font-size:1.5rem; transform:translateY(-4px);}
 /*영화*/
 #movie {display:none;}
 #movie h2{display:none;}
-#movie #about {position:absolute; width:100%; background:none; top:calc(70vh - 10px); padding:5px;}
-#movie #about div { display:flex; justify-content:space-between;  margin:0 100px;}
+#movie #about1 {position:absolute; width:100%; background:none; top:calc(70vh - 10px); padding:5px;}
+#movie #about1 div { display:flex; justify-content:space-between;  margin:0 100px;}
 
 /*요일*/
 #days {text-align:center; margin:10px; margin-top:20px; }

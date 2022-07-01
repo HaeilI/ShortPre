@@ -6,6 +6,7 @@ html,body {background:white; font:10pt "나눔고딕";}
 img {max-width:100%; display:block;}
 a	{text-decoration:none; color:white;}
 
+
 body {max-width:600px; margin:auto;}
 body.hidden {overflow:hidden;}
 #layout {max-width:600px; margin:auto; position:relative; margin-bottom:50px;}
@@ -70,7 +71,7 @@ h2 {display:none;}
 #id span {font-size:3rem; padding:5px;}
 #id input {height:40px; width:100%; border:none; margin-left:5px; font-size:1.5rem;}
 
-#com .space{padding:10px; display:flex; width:100%; border-bottom:1px solid gray; }
+#com .space{padding:10px; display:flex; width:100%; border-bottom:1px solid gray;}
 #com section:first-child {border-top:1px solid gray;}
 #com .space section {flex:1;}
 #com .space >span {padding-right:10px; font-size:2rem;}
